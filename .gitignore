@@ -1,6 +1,12 @@
 
-# Created by https://www.gitignore.io/api/macos,jetbrains+all
-# Edit at https://www.gitignore.io/?templates=macos,jetbrains+all
+# Created by https://www.gitignore.io/api/macos,jekyll,jetbrains+all
+# Edit at https://www.gitignore.io/?templates=macos,jekyll,jetbrains+all
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 ### JetBrains+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -116,4 +122,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/macos,jetbrains+all
+# End of https://www.gitignore.io/api/macos,jekyll,jetbrains+all
