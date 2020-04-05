@@ -12,8 +12,6 @@ description: >-
   Software Engineer/Team Lead.
   Cloud, Infrastructure, Kubernetes, Backend Development.
   Living in Berlin.
-twitter_username: utkuozdemir
-github_username: utkuozdemir
 minimal_mistakes_skin: default
 search: true
 encoding: utf-8
@@ -99,8 +97,8 @@ tag_archive:
 
 compress_html:
   clippings: all
-  ignore:
-    envs: development
+#  ignore:
+#    envs: development
 
 analytics:
   provider: google-gtag
