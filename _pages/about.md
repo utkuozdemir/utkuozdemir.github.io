@@ -20,7 +20,7 @@ I still work as a team lead and as an infrastructure engineer,
 bringing up Kubernetes clusters on bare-metal and/or VMs on daily basis, 
 ensuring their stability and high availability.
 
-Even though I shifted my focus, Java as an ecosystem has a special place in me, 
+Even though I shifted my focus, the Java ecosystem holds a special place in my heart, 
 and I still keep myself up-to-date on the Java ecosystem by following it closely.
 
 Other than software, I am into gaming (PC, consoles), cooking and biking.
