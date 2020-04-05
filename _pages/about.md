@@ -3,6 +3,24 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I was born 1989 in Turkey. Spent my childhood in Balikesir, until I went to Istanbul for the university.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Studied computer engineering in Galatasaray University. 
+After finishing my studies, I started to work at a startup as a Java backend developer.
+
+After working there for about 2 years, I decided to quit and go to do the compulsory military service for 6 months.
+
+After that, in 2015, I found a job in Germany and relocated to Cologne. Worked there for more than 2 years, 
+then decided to move to Berlin. Since then, I am living and working in Berlin.
+
+I worked on Java (and some Kotlin) backend applications for quite some time, 
+before shifting my focus to the cloud technologies and particularly to Kubernetes.
+
+I still work as a team lead and as an infrastructure engineer, 
+bringing up Kubernetes clusters on bare-metal and/or VMs on daily basis, 
+ensuring their stability and high availability.
+
+Even though I shifted my focus, Java as an ecosystem has a special place in me, 
+and I still keep myself up-to-date on the Java ecosystem by following it closely.
+
+Other than software, I am into gaming (PC, consoles), cooking and biking.
