@@ -1,8 +1,12 @@
 # Reference: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method
 # Reference: https://github.com/mmistakes/mm-github-pages-starter
+# Reference: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+# Reference: https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 
 title: Utku Özdemir
-email: utku@utkuozdemir.org
+locale: en-US
+url: https://utkuozdemir.org
+repository: utkuozdemir/utkuozdemir.github.io
 description: >-
   Utku Özdemir.
   Software Engineer/Team Lead.
@@ -12,13 +16,11 @@ twitter_username: utkuozdemir
 github_username: utkuozdemir
 minimal_mistakes_skin: default
 search: true
-
-# Build settings
+encoding: utf-8
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.19.1
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
 timezone: Europe/Berlin
 
@@ -34,49 +36,44 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Utku Özdemir"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Software Engineer/Team Lead. Cloud, Infrastructure, Kubernetes, Backend Development. Living in Berlin."
+  name: Utku Özdemir
+  location: Berlin, Germany
+  email: utku@utkuozdemir.org
+  avatar: /assets/images/bio-photo.jpg
+  bio: Software Engineer/Team Lead. Cloud, Infrastructure, Kubernetes, Backend Development. Living in Berlin.
   links:
-#    - label: "Website"
-#      icon: "fas fa-fw fa-link"
-#      url: "https://utkuozdemir.org"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/utkuozdemir"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/utkuozdemir"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/utkuozdemir/"
-    - label: "Stack Overflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/1005102"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/utkuo89"
+    - label: Email
+      icon: fas fa-fw fa-envelope-square
+      url: mailto:utku@utkuozdemir.org
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/utkuozdemir
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/utkuozdemir
+    - label: Linkedin
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/utkuozdemir/
+    - label: Stack Overflow
+      icon: fab fa-fw fa-stack-overflow
+      url: https://stackoverflow.com/users/1005102
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/utkuozdemir"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/utkuozdemir"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/utkuozdemir/"
-    - label: "Stack Overflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/1005102"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/utkuo89"
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/utkuozdemir
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/utkuozdemir
+    - label: Linkedin
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/utkuozdemir/
+    - label: Stack Overflow
+      icon: fab fa-fw fa-stack-overflow
+      url: https://stackoverflow.com/users/1005102
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -86,10 +83,8 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
-  # _pages
   - scope:
-      path: "_pages"
+      path: _pages
       type: pages
     values:
       layout: single
@@ -101,3 +96,14 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: UA-63153932-2
+    anonymize_ip: false
