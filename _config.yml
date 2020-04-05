@@ -57,9 +57,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/utkuozdemir"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/utkuo89"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/utkuozdemir/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/utkuo89"
 
 footer:
   links:
@@ -70,8 +73,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/utkuozdemir"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/utkuo89"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/utkuozdemir/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/utkuo89"
 
 defaults:
   # _posts
