@@ -1,0 +1,43 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[11pt, a4paper]{awesome-cv}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-darknight}
+\setbool{acvSectionColorHighlight}{true}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\name{Utku}{Özdemir}
+\position{Software Engineer}
+\address{Berlin, Germany}
+\email{uoz@protonmail.com}
+\homepage{https://utkuozdemir.org}
+\github{utkuozdemir}
+\linkedin{utkuozdemir}
+\stackoverflow{1005102}{Utku Özdemir}
+\twitter{@utkuozdemir}
+
+\begin{document}
+
+\makecvheader[C]
+\makecvfooter
+  {\today}
+  {Utku Özdemir~~~·~~~Résumé}
+  {\thepage}
+
+\input{sections/summary.tex}
+
+\end{document}
