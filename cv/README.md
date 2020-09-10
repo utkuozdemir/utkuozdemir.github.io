@@ -11,7 +11,7 @@ because the project looks not maintained anymore, and required some fixes to bui
 To build:
 
 ```bash
-$ xelatex utku.pdf
+$ xelatex utku.tex
 ```
 
 It will build the file with name `utku.pdf`.
