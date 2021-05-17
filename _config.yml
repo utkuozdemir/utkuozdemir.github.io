@@ -16,7 +16,7 @@ minimal_mistakes_skin: default
 search: true
 encoding: utf-8
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.19.1
+remote_theme: mmistakes/minimal-mistakes@4.23.0
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
