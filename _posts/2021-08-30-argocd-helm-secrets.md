@@ -1,5 +1,5 @@
 ---
-title: "Managing Helm secrets values in ArgoCD"
+title: Managing Helm secret values in ArgoCD
 categories:
   - blog
 tags:
