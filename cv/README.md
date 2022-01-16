@@ -11,7 +11,7 @@ because the project looks not maintained anymore, and required some fixes to bui
 To build:
 
 ```bash
-$ xelatex utku.tex
+$ xelatex utku-ozdemir-cv.tex
 ```
 
-It will build the file with name `utku.pdf`.
+It will build the file with name `utku-ozdemir-cv.pdf`.
