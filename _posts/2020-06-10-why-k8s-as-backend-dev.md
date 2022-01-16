@@ -10,8 +10,6 @@ tags:
   - spring
 ---
 
-## Introduction
-
 I started my career as a Java backend developer. Until the last few years my focus was mostly on
 developing backend applications. About 2 years ago I shifted my focus to cloud and 
 infrastructure topics, particularly to Kubernetes.
