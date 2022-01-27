@@ -156,10 +156,9 @@ to create the sealed-secrets controller before the `SealedSecret` resources.
     kind: Application
     metadata:
       name: grafana
-      namespace: grafana
+      namespace: argocd
     spec:
       destination:
-        namespace: grafana
         server: https://kubernetes.default.svc
       project: default
       source:
