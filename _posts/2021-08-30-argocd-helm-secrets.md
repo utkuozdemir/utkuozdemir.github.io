@@ -11,6 +11,11 @@ tags:
   - helm
 ---
 
+**IMPORTANT NOTE:** This solution does not work anymore, see [here](https://github.com/utkuozdemir/argocd-helm-secret-values-example/issues/2).  
+I have switched to Flux CD on my setup, it solves this problem simply and elegantly.  
+I hope ArgoCD also comes up with a proper solution to this problem sooner than later.
+{: .notice--warning}
+
 Recently I have been reading about GitOps and during the last week, I decided to give it a shot.
 
 I have a self-hosted setup with Kubernetes (k3s) and a bunch of tools running on it. 
